@@ -1,8 +1,10 @@
 import java.util.Scanner;
 public class Factorial {
 
+		private static Scanner keyboard;
+
 		public static void main(String[] args) {
-			Scanner keyboard = new Scanner(System.in);
+			keyboard = new Scanner(System.in);
 			System.out.println("Please enter an integer to calculate it's factorial:");
 			int mynumber = keyboard.nextInt();
 			System.out.println("factorial(" + mynumber + ") =" + factorial(mynumber));
