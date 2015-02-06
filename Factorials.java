@@ -7,7 +7,7 @@ public class Factorial {
 			keyboard = new Scanner(System.in);
 			System.out.println("Please enter an integer to calculate it's factorial:");
 			int mynumber = keyboard.nextInt();
-			System.out.println("factorial(" + mynumber + ") =" + factorial(mynumber));
+			System.out.println("The factorial of " + mynumber + " is equal to " + factorial(mynumber) + ".");
 		}
 		
 		/**
@@ -16,6 +16,7 @@ public class Factorial {
 		 * @param x the number to factorial
 		 * @return x!
 		 */
+
 		public static int factorial(int x) {
 			int factorial = x;
 			
